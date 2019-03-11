@@ -24,3 +24,9 @@
     line-height: 30px;
     padding-left: 5px;
 }
+
+#newTrain{
+    background-color: blue;
+    color: white;
+    border: solid black 4px;
+}
