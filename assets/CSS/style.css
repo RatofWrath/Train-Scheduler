@@ -1,0 +1,26 @@
+.jumbotron{
+    background-color: saddlebrown !important;
+    height: 250px;
+}
+
+.display-4{
+    color: white;
+    text-align: center;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.lead{
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.tableHeader{
+    color: white;
+    background-color: lightskyblue;
+    font-weight: bold;
+    line-height: 30px;
+    padding-left: 5px;
+}

@@ -17,7 +17,54 @@
 </head>
 
 <body>
+    <div class="jumbotron">
+        <h1 class="display-4">Anytime is Train Time!</h1>
+        <p class="lead">Choo Choo!</p>
+      </div>
 
+    <div>
+        <p class="tableHeader">Current Train Schedule</p>
+        <table class="table table-bordered table-dark">
+            <thead>
+              <tr>
+                <th scope="col">Train Name</th>
+                <th scope="col">Destination</th>
+                <th scope="col">Frequency (min)</th>
+                <th scope="col">Next Arrival</th>
+                <th scope="col">Minutes Away</th>
+              </tr>
+            </thead>  
+            <tbody>
+
+            </tbody>        
+    </div>
+
+    <div>
+        <p class ="tableHeader">Add train</p>
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Train Name</label>
+              <input class="form-control" id="tName">
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputPassword1">Destination</label>
+              <input class="form-control" id="destination">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputPassword1">First Train Time (HH:mm) - Military Time)</label>
+                <input class="form-control" id="time">
+              </div>
+
+              <div class="form-group">
+                  <label for="exampleInputPassword1">Frequency (min)</label>
+                  <input class="form-control" id="frequency">
+                </div>  
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
 
     <script type="text/javascript" src="assets/javascript/script.js"></script>
 
