@@ -17,8 +17,8 @@ $("#newTrain").on("click", function(){
     var diffTime = moment().diff(moment(firstTrainConverted), "minutes");
     var remainder = diffTime % frequency;
     var minutesUntilNextTrain = frequency - remainder;
-    var nextTrain = moment.add(minutesUntilNextTrain, "minutes");
-    var nextTrainConverted = moment(nextTrain).format("hh:mm");
+    var nextTrain = moment().add(minutesUntilNextTrain, "minutes");
+    var nextTrainConverted = moment(nextTrain).format("HH:mm");
 
     //Creating a new entry and appending it to our table
     var newTrainRow = $("<tr> <td> " + trainName + "</td> <td>" + destination + "</td> <td> " 
