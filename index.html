@@ -8,6 +8,7 @@
   <!-- Link to the Javascript Libraries -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
 
   <!-- Link to CSS Files-->
   <link rel="stylesheet" href="assets/CSS/reset.css">
@@ -23,24 +24,8 @@
         <p class="lead">Choo Choo!</p>
       </div>
 
-    <div>
-        <p class="tableHeader">Current Train Schedule</p>
-        <table class="table table-bordered table-dark">
-            <thead>
-              <tr>
-                <th scope="col">Train Name</th>
-                <th scope="col">Destination</th>
-                <th scope="col">Frequency (min)</th>
-                <th scope="col">Next Arrival</th>
-                <th scope="col">Minutes Away</th>
-              </tr>
-            </thead>  
-            <tbody id="scheduleTable">
 
-            </tbody>        
-    </div>
-
-    <div>
+      <div>
         <p class ="tableHeader">Add train</p>
         <form onsubmit="return false">
             <div class="form-group">
@@ -65,6 +50,24 @@
 
             <button id="newTrain">Add a new train.</button>
           </form>
+    
+        </div>
+
+    <div>
+        <p class="tableHeader">Current Train Schedule</p>
+        <table class="table table-bordered table-dark">
+            <thead>
+              <tr>
+                <th scope="col">Train Name</th>
+                <th scope="col">Destination</th>
+                <th scope="col">Frequency (min)</th>
+                <th scope="col">Next Arrival</th>
+                <th scope="col">Minutes Away</th>
+              </tr>
+            </thead>  
+            <tbody id="scheduleTable">
+
+            </tbody>        
     </div>
 
     <script type="text/javascript" src="assets/javascript/script.js"></script>
