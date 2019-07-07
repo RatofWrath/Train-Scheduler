@@ -6,4 +6,4 @@ In this project, the end-user can use a form where they enter a train's name, de
 ### Technologies Used:
 For this project I used HTML, CSS, Javascript, Firebase and Moment.js
 
-Link: https://ratofwrath.github.io/Train-Scheduler/
+Link: https://Tyler-Mullen.github.io/Train-Scheduler/
